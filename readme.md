@@ -14,8 +14,8 @@ in terminal or console.
 - Knowledge of oop and basic information about system classes.
 
 ## Projects (Done and Planned)
-- [x]: Simple calculator online
-- [x]: Example blog application (with flat database)
+- [x] : Simple calculator online
+- [x] : Example blog application (with flat database)
 
 ## Notes
 Please be aware that this framework is experimental and not stable. So please do not use in production.
