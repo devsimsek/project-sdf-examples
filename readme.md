@@ -5,7 +5,7 @@ This project is created by the new framework called sdf. It is fast and simple t
 ## Example Project Installation
 You can create local repo of this project by typing
 ```
-git clone https://github.com/devsimsek/sdf-examples
+git clone https://github.com/devsimsek/project-sdf-examples
 ```
 in terminal or console.
 
