@@ -1,0 +1,188 @@
+:root {
+    --sdl_Color_Background: rgb(220, 220, 220);
+    --sdl_Color_Text: rgb(0, 0, 0);
+    --sdl_Color_Href: rgb(224, 0, 86);
+    --sdl_Color_Navigation_Text: rgb(51, 51, 51);
+    --sdl_Color_Menu: rgb(130, 130, 130);
+}
+
+body {
+    background-color: var(--sdl_Color_Background);
+}
+
+.logo {
+    font-family: "Consolas", monospace;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: var(--sdl_Color_Navigation_Text) !important;
+    display: block;
+    text-decoration: none
+}
+
+.navigation {
+    width: 100%;
+    float: left;
+}
+
+.description {
+    margin-top: 8%;
+    font-family: "Consolas", monospace;
+}
+
+.wrapper {
+    margin: 2%;
+    padding: 2% 10%;
+}
+
+.menu {
+    color: var(--sdl_Color_Menu) !important;
+    font-family: "Merriweather", serif;
+    font-size: 16px;
+    margin: 0 !important;
+    padding: 0 !important;
+    list-style-type: none;
+}
+
+.menu_entry {
+    color: var(--sdl_Color_Menu) !important;
+    display: inline-block;
+    margin-right: 3px !important;
+}
+
+.menu_entry a {
+    font-weight: 400;
+    color: var(--sdl_Color_Menu) !important;
+    text-decoration: none;
+}
+
+.menu_entry:last-child {
+    margin-right: 0 !important;
+}
+
+.menu_entry a:hover {
+    text-decoration: underline;
+}
+
+.list {
+    font-family: "Merriweather", serif;
+    list-style-type: none;
+}
+
+.list i {
+    color: var(--sdl_Color_Navigation_Text) !important;
+    margin-right: 3px !important;
+}
+
+.list a {
+    color: var(--sdl_Color_Href) !important;
+    text-decoration: none;
+}
+
+.list p {
+    color: var(--sdl_Color_Menu);
+    font-style: italic;
+}
+
+.list a:hover {
+    text-decoration: underline;
+}
+
+.logo:hover {
+    text-decoration: none
+}
+
+h2 {
+    font-weight: 400;
+    color: var(--sdl_Color_Navigation_Text) !important;
+}
+
+main {
+    margin-top: 6%;
+}
+
+.post {
+    font-family: "Merriweather", serif;
+}
+
+.post-information {
+    display: block;
+}
+
+.post-title {
+    font-family: "Consolas", monospace;
+}
+
+.post-date {
+    font-style: italic;
+    font-family: "Consolas", monospace;
+    color: var(--sdl_Color_Navigation_Text);
+}
+
+.post-date a {
+    color: var(--sdl_Color_Href) !important;
+    text-decoration: none;
+}
+
+.post-date a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 680px) {
+    .logo {
+        font-size: 46px;
+    }
+
+    .wrapper {
+        width: 80%;
+    }
+
+    .navigation {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+
+    .description {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+
+input[type=text], select {
+    background-color: #f8f8f8;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #282626;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #050505;
+}
