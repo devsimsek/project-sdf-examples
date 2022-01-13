@@ -14,10 +14,11 @@ in terminal or console.
 - Knowledge of oop and basic information about system classes.
 
 ## Projects (Done and Planned)
-- [x]: Simple calculator online
-- [x]: Example blog application (with flat database)
+- [x] : Simple calculator online
+- [x] : Example blog application (with flat database)
 
 ## Notes
+All of these projects were coded using vim :)
 Please be aware that this framework is experimental and not stable. So please do not use in production.
 Soon I will develop most of the needed libraries such as database, flash storage, file management and session.
 Core security is not yet finished! (Do Not Use On Production!)
